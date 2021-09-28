@@ -158,7 +158,6 @@ function spawnObstacles() {
     obstacle.addImage(obstacle1);
     obstacle.velocityX = -(3*score/100)
     obstacle.scale = 0.15;   
-    console.log(obstacle.velocityX)
  
     obstacle.lifetime = 400;
     obstaclesGroup.add(obstacle);
